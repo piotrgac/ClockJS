@@ -1,0 +1,148 @@
+body {background-color: black}
+h1 {
+    font-family: alarm-clock;
+    font-size: 150px;
+    margin: 0;
+    color: rgb(214, 18, 18);
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+h2 {
+    font-family: alarm-clock;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(214, 18, 18);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+@font-face{
+    font-family: alarm-clock;
+    src:url("alarm_clock/alarm\ clock.ttf");
+}
+.button {
+    background-color: gray;
+    border: none;
+    color: rgb(214, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 60%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 70px;
+    width: 140px;
+}
+.button2 {
+    background-color: gray;
+    border: none;
+    color: rgb(214, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 60%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 70px;
+    width: 140px;
+}
+.button3 {
+    background-color: gray;
+    border: none;
+    color: rgb(214, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 60%;
+    left: 60%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 70px;
+    width: 140px;
+}
+.button4 {
+    background-color: gray;
+    border: none;
+    color: rgb(214, 18, 18);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+    top: 60%;
+    left: 60%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    height: 70px;
+    width: 140px;
+}
+input[type=text1] {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+input[type=text2] {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+input[type=text3] {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+input[type=text4] {
+    position: absolute;
+    top: 50%;
+    width: 20px;
+}
+select{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 45%;
+}
+footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(214, 18, 18);
+    color: white;
+    text-align: center;
+    padding: 10px 0 10px;
+}
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+  }
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
